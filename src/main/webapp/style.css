@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: cyan;
+}
+
+.nav {
+	display: flex;
+	gap: 16px;
+}
+
+.nav a {
+	background-color: red;
+	text-decoration: none;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+	text-align: center;
+	justify-content: center;
+}
+
+.nav a:hover {
+	scale: 1.06;
+}
